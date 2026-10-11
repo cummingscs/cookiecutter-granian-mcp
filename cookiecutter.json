@@ -1,0 +1,13 @@
+{
+  "project_name": "My MCP Server",
+  "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-')|replace('_', '-') }}",
+  "package_name": "{{ cookiecutter.project_slug|replace('-', '_') }}",
+  "server_name": "{{ cookiecutter.project_name }}",
+  "description": "An MCP server served by Granian",
+  "author_name": "Your Name",
+  "author_email": "you@example.com",
+  "python_version": "3.11",
+  "license": "MIT",
+  "copyright_year": "2026",
+  "include_docker": ["yes", "no"]
+}
