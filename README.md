@@ -26,22 +26,22 @@ One-off use without installing Cookiecutter persistently:
 
 ```bash
 cd /where/you/want/the-new-project
-uvx cookiecutter gh:estebistec/cookiecutter-granian-mcp
+uvx cookiecutter gh:cummingscs/cookiecutter-granian-mcp
 ```
 
 Or install the Cookiecutter command once with uv:
 
 ```bash
 uv tool install cookiecutter
-cookiecutter gh:estebistec/cookiecutter-granian-mcp
+cookiecutter gh:cummingscs/cookiecutter-granian-mcp
 ```
 
-For this public template, the equivalent full Git URL is `https://github.com/estebistec/cookiecutter-granian-mcp.git`.
+For this public template, the equivalent full Git URL is `https://github.com/cummingscs/cookiecutter-granian-mcp.git`.
 
 Tag releases (for example, `v0.1.0`) and recommend a tag in production documentation to keep generated projects reproducible:
 
 ```bash
-cookiecutter gh:estebistec/cookiecutter-granian-mcp --checkout v0.1.0
+cookiecutter gh:cummingscs/cookiecutter-granian-mcp --checkout v0.1.0
 ```
 
 When the template is the repository root, do not pass `--directory`; that option is only needed when a template lives in a subdirectory of a larger repository.
